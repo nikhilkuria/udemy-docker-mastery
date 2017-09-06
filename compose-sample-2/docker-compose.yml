@@ -7,5 +7,5 @@ services:
       - '80:80' # expose 80 on host and sent to 80 in container
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
-  web:
+  webworld:
     image: httpd  # this will use httpd:latest
